@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bold Path HR - Transforming Workplaces</title>
-    <meta name="description" content="Bold Path HR provides innovative human resources solutions to transform workplace cultures and drive organizational success.">
+    <title>Login - Bold Path HR</title>
+    <meta name="description" content="Login to your Bold Path HR account to access our HR management platform.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
@@ -12,7 +12,7 @@
     <!-- Header -->
     <header class="header">
         <div class="container nav">
-            <a href="#" class="logo">
+            <a href="index.html" class="logo">
                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 2L2 10V22L16 30L30 22V10L16 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
                     <path d="M16 2V30" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
@@ -24,7 +24,7 @@
                 BoldPath HR
             </a>
             <nav class="nav-links">
-                <a href="#" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="our-services.html" class="nav-link">Services</a>
                 <a href="company-profile.html" class="nav-link">About</a>
                 <a href="contact-us.html" class="nav-link">Contact</a>
@@ -33,67 +33,57 @@
                 <a href="hr-resources.html" class="nav-link">Resources</a>
                 <a href="careers-opportunities.html" class="nav-link">Careers</a>
             </nav>
-            <div class="nav-actions">
-                <a href="user-login.html" class="btn btn-outline">Login</a>
-                <a href="user-register.html" class="btn btn-primary">Get Started</a>
-            </div>
+            <a href="user-register.html" class="btn btn-outline">Register</a>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Transform Your Workplace with Modern HR Solutions</h1>
-            <p>Bold Path HR helps organizations build exceptional workplace cultures through innovative human resources strategies and cutting-edge technology.</p>
-            <div class="hero-buttons">
-                <a href="our-services.html" class="btn btn-primary">Explore Services</a>
-                <a href="contact-us.html" class="btn btn-outline">Schedule Demo</a>
+    <!-- Login Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Login to Your Account</h2>
+                <p>Access your Bold Path HR dashboard</p>
             </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <h3>500+</h3>
-                    <p>Companies Served</p>
-                </div>
-                <div class="stat-item">
-                    <h3>98%</h3>
-                    <p>Client Satisfaction</p>
-                </div>
-                <div class="stat-item">
-                    <h3>24/7</h3>
-                    <p>Support Available</p>
-                </div>
+            <div class="card" style="max-width: 500px; margin: 0 auto; padding: 2rem;">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail" class="form-label">Email Address *</label>
+                        <input type="email" id="loginEmail" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword" class="form-label">Password *</label>
+                        <input type="password" id="loginPassword" name="password" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Login</button>
+                </form>
+                <p class="text-center mt-4"><a href="#">Forgot your password?</a></p>
+                <p class="text-center mt-4">Don't have an account? <a href="user-register.html">Register here</a></p>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="section">
+    <!-- Features Section -->
+    <section class="section" style="background: linear-gradient(135deg, rgba(10, 37, 64, 0.03), rgba(27, 57, 93, 0.03));">
         <div class="container">
-            <div class="section-header">
-                <h2>Our HR Services</h2>
-                <p>Comprehensive solutions designed to elevate your workplace culture and drive organizational success.</p>
+            <div class="section-header text-center">
+                <h2>Access Our HR Management System</h2>
+                <p>Powerful tools to manage your organization's human resources</p>
             </div>
             <div class="card-grid">
                 <div class="card">
                     <div class="card-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M20.59 22C20.59 18.13 16.74 15 12 15C7.26 15 3.41 18.13 3.41 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3>Talent Acquisition</h3>
-                    <p>Strategic recruitment solutions to find and attract top talent for your organization.</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M20 13C20 17.4183 16.4183 21 12 21C7.58172 21 4 17.4183 4 13C4 8.58172 7.58172 5 12 5C16.4183 5 20 8.58172 20 13Z" stroke="currentColor" stroke-width="2"/>
-                            <path d="M8 13H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M12 9V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </div>
-                    <h3>Employee Development</h3>
-                    <p>Custom training programs and career development initiatives for your workforce.</p>
+                    <h3>Employee Management</h3>
+                    <p>Centralized employee database with comprehensive profiles and document management.</p>
                 </div>
                 <div class="card">
                     <div class="card-icon">
@@ -102,75 +92,20 @@
                             <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
-                    <h3>Performance Management</h3>
-                    <p>Data-driven performance evaluation systems that drive results and growth.</p>
+                    <h3>Performance Tracking</h3>
+                    <p>Goal setting, performance reviews, and development planning tools.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Approach Section -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our Approach</h2>
-                <p>We believe in creating workplace cultures that inspire excellence and drive success.</p>
-            </div>
-            <div class="approach">
-                <div class="approach-steps">
-                    <div class="step">
-                        <h3>Assess</h3>
-                        <p>We evaluate your current HR landscape to identify opportunities for improvement.</p>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 12V22H4V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 7H2V12H22V7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 22V7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     </div>
-                    <div class="step">
-                        <h3>Design</h3>
-                        <p>Custom solutions tailored to your organization's unique needs and goals.</p>
-                    </div>
-                    <div class="step">
-                        <h3>Implement</h3>
-                        <p>Seamless rollout with comprehensive training and ongoing support.</p>
-                    </div>
-                    <div class="step">
-                        <h3>Optimize</h3>
-                        <p>Continuous improvement through data analysis and feedback loops.</p>
-                    </div>
+                    <h3>Time & Attendance</h3>
+                    <p>Time tracking, leave management, and absence monitoring.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Success Stories</h2>
-                <p>Hear from organizations that have transformed their workplace culture with our solutions.</p>
-            </div>
-            <div class="testimonial-slider">
-                <div class="testimonial">
-                    <p class="testimonial-text">"Bold Path HR revolutionized our approach to talent management. Their strategic insights helped us reduce turnover by 40% while improving employee satisfaction scores."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">SJ</div>
-                        <div class="author-info">
-                            <h4>Sarah Johnson</h4>
-                            <p>HR Director, TechInnovate Inc.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="section">
-        <div class="container text-center">
-            <div class="section-header">
-                <h2>Ready to Transform Your Workplace?</h2>
-                <p>Schedule a consultation with our HR experts to discover how we can help your organization thrive.</p>
-            </div>
-            <div class="hero-buttons">
-                <a href="user-register.html" class="btn btn-primary">Get Started Today</a>
-                <a href="contact-us.html" class="btn btn-outline">Contact Sales</a>
             </div>
         </div>
     </section>
@@ -180,7 +115,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div>
-                    <a href="#" class="footer-logo">BoldPath HR</a>
+                    <a href="index.html" class="footer-logo">BoldPath HR</a>
                     <p>Transforming workplaces through innovative human resources solutions.</p>
                     <div class="social-links">
                         <a href="#" class="social-link">
@@ -246,6 +181,15 @@
             } else {
                 header.classList.remove('scrolled');
             }
+        });
+
+        // Login form submission
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // In a real implementation, this would authenticate the user
+            console.log('Login form submitted');
+            // Redirect to dashboard after successful login
+            window.location.href = 'admin/dashboard.html';
         });
     </script>
 </body>

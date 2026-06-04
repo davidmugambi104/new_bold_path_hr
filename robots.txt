@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /scripts/
+Disallow: /tests/
+Disallow: /utils/
+Disallow: /middleware/
+Disallow: /models/
+Disallow: /controllers/
+Disallow: /routes/
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /README.md
+Disallow: /DEPLOYMENT-GUIDE.md
+Disallow: /DEPLOY_TO_VERCEL.md
+Disallow: /README-REDESIGN.md
+
+Allow: /
+Allow: /index.html
+Allow: /company-profile.html
+Allow: /our-services.html
+Allow: /contact-us.html
+Allow: /client-success.html
+Allow: /hr-resources.html
+Allow: /hr-blog.html
+Allow: /careers-opportunities.html
+Allow: /pricing-plans.html
+Allow: /user-login.html
+Allow: /user-register.html
+
+Sitemap: https://boldpathhr.com/sitemap.xml

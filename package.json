@@ -7,6 +7,10 @@
     "start": "node api/server.js",
     "dev": "nodemon api/server.js",
     "test": "jest",
+    "test:website": "bash scripts/test-website.sh",
+    "validate:config": "node scripts/validate-config.js",
+    "update": "bash scripts/update-website.sh",
+    "deploy": "bash scripts/deploy.sh",
     "migrate": "node scripts/migrate.js",
     "seed": "node scripts/seed.js"
   },
@@ -36,5 +40,16 @@
     "nodemon": "^3.0.1",
     "jest": "^29.6.1",
     "supertest": "^6.3.3"
-  }
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boldpathhr/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boldpathhr/website/issues"
+  },
+  "homepage": "https://boldpathhr.com"
 }

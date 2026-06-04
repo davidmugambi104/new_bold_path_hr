@@ -38,6 +38,7 @@ app.use('/api/departments', require('../routes/departments'));
 app.use('/api/positions', require('../routes/positions'));
 app.use('/api/attendance', require('../routes/attendance'));
 app.use('/api/leave', require('../routes/leave'));
+app.use('/api/health', require('./health'));
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
