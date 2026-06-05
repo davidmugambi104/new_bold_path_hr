@@ -15,7 +15,19 @@ jobs:
       - name: Validate Environment Variables
         run: |
           if [ -z "${{ secrets.VERCEL_TOKEN }}" ]; then
-            echo "VERCEL_TOKEN is missing. Please add it to your GitHub Secrets."
+            echo "VERCEL_TOKEN is missing from GitHub Secrets!"
+            echo ""
+            echo "To fix this issue:"
+            echo "1. Go to https://vercel.com/account/tokens and create a new token"
+            echo "2. Copy the token value"
+            echo "3. Go to your GitHub repository settings"
+            echo "4. Navigate to Settings > Secrets and variables > Actions"
+            echo "5. Click 'New repository secret'"
+            echo "6. Name it 'VERCEL_TOKEN' and paste the token value"
+            echo "7. Click 'Add secret'"
+            echo "8. Re-run this workflow"
+            echo ""
+            echo "Note: The token should have at least the 'Deployments' scope."
             exit 1
           fi
           echo "All required environment variables are present."
